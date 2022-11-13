@@ -14,9 +14,7 @@ const { state, saveState } = useSingleFileAuthState('./session.json')
 const config = require('./config')
 const prefix = '.'
 const owner = ['94761327688']
-const yts = require( 'yt-search' )
 const axios = require('axios')
-const apk_link = require('./lib/playstore')
 const connectToWA = () => {
 	const conn = makeWASocket({
 		logger: P({ level: 'silent' }),
@@ -71,7 +69,7 @@ const connectToWA = () => {
 			}
 
 			const isSUB = from == config.SENDJID ? true : false
-			
+
 			
 			switch (command) {
 
