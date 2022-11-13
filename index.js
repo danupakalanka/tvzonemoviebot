@@ -1178,7 +1178,7 @@ const connectToWA = () => {
 						image: { url: "https://telegra.ph/file/6ceef7fed310811fd5ebd.jpg" }
 					}
 
-					await conn.sendMessage(config.GROUPJID, buttonMessage)
+					await conn.sendMessage(config.GROUPJID, buttonMessage),
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
