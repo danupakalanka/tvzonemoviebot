@@ -1,7 +1,7 @@
 {
- "name": "edmbase",
- "description": "Multi Device Whatsapp Base By EDM",
- "version": "1.0.0",
+ "name": "TV Zone Bot",
+ "description": "Multi Device Whatsapp Base By NadithPro",
+ "version": "1.1.3",
  "main": "index.js",
  "scripts": {
   "start": "node index.js"
@@ -16,7 +16,7 @@
   "bot-md",
   "multi-device"
  ],
- "author": "edm-official",
+ "author": "NadithPro",
  "license": "MIT",
  "dependencies": {
   "@adiwajshing/baileys": "^4.0.1",
@@ -59,10 +59,10 @@
  },
  "repository": {
   "type": "git",
-  "url": "git+https://github.com/edm-official/whatsapp-base"
+  "url": "git+https://github.com/nadith-git/tvzonemoviebot"
  },
  "bugs": {
-  "url": "https://github.com/edm-official/whatsapp-base/issues"
+  "url": "https://github.com/nadith-git/tvzonemoviebot/issues"
  },
- "homepage": "https://github.com/edm-official/whatsapp-base"
+ "homepage": "https://github.com/nadith-git/tvzonemoviebot"
 }
