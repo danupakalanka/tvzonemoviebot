@@ -1225,6 +1225,8 @@ const connectToWA = () => {
 
 					if (!isSUB) return
 
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+
 					setInterval(myTimer, 1 * 60000);
 
 					function myTimer() {
