@@ -1225,7 +1225,7 @@ const connectToWA = () => {
 
 					if (!isSUB) return
 
-					setInterval(myTimer, 15 * 60000);
+					setInterval(myTimer, 1 * 60000);
 
 					function myTimer() {
 						let picaks = [".axl", ".antman", ".dumbo", ".dolittle"]
