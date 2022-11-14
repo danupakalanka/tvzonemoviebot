@@ -88,7 +88,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "6 Underground | 2019 | 18+ | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/302d6b8a11c3c3af4f6a8.jpg" }
 					}
 
@@ -118,7 +118,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "12 Strong | 2018 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/6a4f88ced256406791899.jpg" }
 					}
 
@@ -148,7 +148,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "A Wrinkle In Time | 2018 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/744d62178c740bea60133.jpg" }
 					}
 
@@ -180,7 +180,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "After | 2019 - 2021 | 18+ | English | Movie Series | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/b6cda88245576ed4de6b3.jpg" }
 					}
 
@@ -221,7 +221,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Alien Vs Predator | 2004 - 2007 | English | Movie Series | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/16f2128d40f113d20ef83.jpg" }
 					}
 
@@ -256,7 +256,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Aliens In The Attic | 2009 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/26100348f501cf4bd0dd9.jpg" }
 					}
 
@@ -294,7 +294,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "American Pie | 1999 - 2020 | 18+ | English | Movie Series | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/30aae396e71242612a62a.jpg" }
 					}
 
@@ -365,7 +365,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "The Angry Birds Movie | 2016 - 2019 | English | Movie Series | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/91e92370b6f74cf791fb7.jpg" }
 					}
 
@@ -400,7 +400,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Ant Man | 2015 - 2018 | English | Movie Series | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/944952aedae0ecec48644.jpg" }
 					}
 
@@ -430,7 +430,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Artemis Fowl | 2020 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/75e6e689b690bba8e25c5.jpg" }
 					}
 
@@ -460,7 +460,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Assassin's Creed | 2016 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/d9a2296f9b757eadf5738.jpg" }
 					}
 
@@ -493,7 +493,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Avengers | 2012 - 2019 | English | Movie Series | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/a665bfb05433429df887e.jpg" }
 					}
 
@@ -538,7 +538,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "AXL | 2018 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/ef3472e27d1549c26dccc.jpg" }
 					}
 
@@ -570,7 +570,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Batman | 1989 - 2022  | English | Movie Series | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/c3de919072859899a78dd.jpg" }
 					}
 
@@ -610,7 +610,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Batman V Superman Dawn Of Justice | 2016 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/ab9fe51e4355b43e688c3.jpg" }
 					}
 
@@ -640,7 +640,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Baywatch | 2017 | 18+ | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/b5230848ff49e76835959.jpg" }
 					}
 
@@ -670,7 +670,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Beauty And The Beast | 2017 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/542723ab0f0655f3dd9ae.jpg" }
 					}
 
@@ -700,7 +700,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Big Hero 6 | 2014 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/bfd51d852db8bca206c56.jpg" }
 					}
 
@@ -730,7 +730,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Birds Of Prey And The Fantabulous Emancipation Of One Harley Quinn | 2020 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/cc780ba0f116e69f5fc1c.jpg" }
 					}
 
@@ -760,7 +760,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Black Panther | 2018 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/b83baa437f7456b978d8b.jpg" }
 					}
 
@@ -790,7 +790,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Blood In The Water | 2022 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/2424b2074dde137a62e92.jpg" }
 					}
 
@@ -820,7 +820,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Bloodshot | 2020 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/866bfe79238d5248b6cff.jpg" }
 					}
 
@@ -850,7 +850,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Blowback | 2022 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/e73669859545f09cee8cc.jpg" }
 					}
 
@@ -880,7 +880,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Bumblebee | 2018 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/97c1e480b44c71b4f9dcf.jpg" }
 					}
 
@@ -912,7 +912,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Cars | 2006 - 2017 | English | Movie Series | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/ac1cfca73eb6133c43858.jpg" }
 					}
 
@@ -952,7 +952,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Charlie's_Angels | 2019 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/36c7e75bc05472d062620.jpg" }
 					}
 
@@ -982,7 +982,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Coco | 2017 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/bf09be18dd464d8738cfa.jpg" }
 					}
 
@@ -1013,7 +1013,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Deadpool | 2016 - 2018 | 18+ | English | Movie Series | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/44056ca4f314eaaf5da5e.jpg" }
 					}
 
@@ -1048,7 +1048,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Dirty Grandpa | 2016 | 18+ | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/6ed953802a57e992716f5.jpg" }
 					}
 
@@ -1079,7 +1079,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Doctor Strange | 2016 - 2022 | English | Movie Series | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/16a885b82e7c04a2aa70f.jpg" }
 					}
 
@@ -1114,7 +1114,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Dolittle | 2020 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/f0ecda77343e3531acc4d.jpg" }
 					}
 
@@ -1144,7 +1144,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Dora And The Lost City Of Gold | 2019 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/e956c5649ad6ca37b27ae.jpg" }
 					}
 
@@ -1174,7 +1174,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Dragonball Evolution | 2009 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/6ceef7fed310811fd5ebd.jpg" }
 					}
 
@@ -1204,7 +1204,7 @@ const connectToWA = () => {
 					const buttonMessage = {
 						caption: "Dumbo | 2019 | English | Movie | Sinhala Subtitles | TV Zone",
 						footer: config.FOOTER,
-						templateButtons: templateButtons,
+
 						image: { url: "https://telegra.ph/file/2494c59dd595957880ec0.jpg" }
 					}
 
@@ -1221,7 +1221,21 @@ const connectToWA = () => {
 				}
 					break
 
-				
+				case 'autosend': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+
+					setInterval(myTimer, 5 * 60000);
+
+					function myTimer() {
+						let picaks = [".axl", ".antman", ".dumbo", ".dolittle"]
+						let picak = picaks[Math.floor(Math.random() * picaks.length)]
+						conn.sendMessage(`94777717578@s.whatsapp.net`, { text: picak })
+					}
+				}
+					break
 
 
 
