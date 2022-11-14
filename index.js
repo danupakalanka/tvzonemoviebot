@@ -83,8 +83,7 @@ const connectToWA = () => {
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(from, {
-						caption: "6 Underground | 2019 | 18+ | English | Movie | Sinhala Subtitles | TV Zone",
-						footer: config.FOOTER,
+						caption: "6 Underground | 2019 | 18+ | English | Movie | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
 						image: { url: "https://telegra.ph/file/302d6b8a11c3c3af4f6a8.jpg" }
 					})
 
