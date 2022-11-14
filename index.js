@@ -466,8 +466,6 @@ const connectToWA = () => {
 						image: { url: "https://telegra.ph/file/ef3472e27d1549c26dccc.jpg" }
 					})
 
-					await conn.sendMessage(config.GROUPJID, buttonMessage)
-
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
@@ -551,8 +549,6 @@ const connectToWA = () => {
 						footer: config.FOOTER,
 						image: { url: "https://telegra.ph/file/b5230848ff49e76835959.jpg" }
 					})
-
-					await conn.sendMessage(config.GROUPJID, buttonMessage)
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
