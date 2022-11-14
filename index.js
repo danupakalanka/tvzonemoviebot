@@ -111,8 +111,6 @@ const connectToWA = () => {
 						footer: config.FOOTER,
 						image: { url: "https://telegra.ph/file/6a4f88ced256406791899.jpg" }
 					})
-					
-					await conn.sendMessage(config.GROUPJID, buttonMessage)
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
@@ -137,8 +135,6 @@ const connectToWA = () => {
 						footer: config.FOOTER,
 						image: { url: "https://telegra.ph/file/744d62178c740bea60133.jpg" }
 					})
-
-					await conn.sendMessage(config.GROUPJID, buttonMessage)
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
@@ -165,8 +161,6 @@ const connectToWA = () => {
 						footer: config.FOOTER,
 						image: { url: "https://telegra.ph/file/b6cda88245576ed4de6b3.jpg" }
 					})
-
-					await conn.sendMessage(config.GROUPJID, buttonMessage)
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
@@ -198,22 +192,10 @@ const connectToWA = () => {
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: "6 Underground | 2019 | 18+ | English | Movie | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
+						caption: "Alien Vs Predator | 2004 - 2007 | English | Movie Series | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "https://telegra.ph/file/302d6b8a11c3c3af4f6a8.jpg" }
-					})
-					
-					const templateButtons = [
-						{ urlButton: { displayText: config.BTNNAME, url: config.SITELINK + "_/search?query=Alien%20Vs%20Predator" } },
-					]
-					const buttonMessage = {
-						caption: "Alien Vs Predator | 2004 - 2007 | English | Movie Series | Sinhala Subtitles | TV Zone",
-						footer: config.FOOTER,
-						templateButtons: templateButtons,
 						image: { url: "https://telegra.ph/file/16f2128d40f113d20ef83.jpg" }
-					}
-
-					await conn.sendMessage(config.GROUPJID, buttonMessage)
+					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
@@ -239,22 +221,10 @@ const connectToWA = () => {
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: "6 Underground | 2019 | 18+ | English | Movie | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
+						caption: "Aliens In The Attic | 2009 | English | Movie | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "https://telegra.ph/file/302d6b8a11c3c3af4f6a8.jpg" }
-					})
-					
-					const templateButtons = [
-						{ urlButton: { displayText: config.BTNNAME, url: config.SITELINK + "aliens-in-the-attic-2009" } },
-					]
-					const buttonMessage = {
-						caption: "Aliens In The Attic | 2009 | English | Movie | Sinhala Subtitles | TV Zone",
-						footer: config.FOOTER,
-						templateButtons: templateButtons,
 						image: { url: "https://telegra.ph/file/26100348f501cf4bd0dd9.jpg" }
-					}
-
-					await conn.sendMessage(config.GROUPJID, buttonMessage)
+					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
@@ -283,22 +253,10 @@ const connectToWA = () => {
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: "6 Underground | 2019 | 18+ | English | Movie | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
+						caption: "American Pie | 1999 - 2020 | 18+ | English | Movie Series | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "https://telegra.ph/file/302d6b8a11c3c3af4f6a8.jpg" }
-					})
-					
-					const templateButtons = [
-						{ urlButton: { displayText: config.BTNNAME, url: config.SITELINK + "_/search?query=American%20Pie" } },
-					]
-					const buttonMessage = {
-						caption: "American Pie | 1999 - 2020 | 18+ | English | Movie Series | Sinhala Subtitles | TV Zone",
-						footer: config.FOOTER,
-						templateButtons: templateButtons,
 						image: { url: "https://telegra.ph/file/30aae396e71242612a62a.jpg" }
-					}
-
-					await conn.sendMessage(config.GROUPJID, buttonMessage)
+					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
@@ -360,22 +318,10 @@ const connectToWA = () => {
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: "6 Underground | 2019 | 18+ | English | Movie | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
+						caption: "The Angry Birds Movie | 2016 - 2019 | English | Movie Series | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "https://telegra.ph/file/302d6b8a11c3c3af4f6a8.jpg" }
-					})
-					
-					const templateButtons = [
-						{ urlButton: { displayText: config.BTNNAME, url: config.SITELINK + "_/search?query=Angry%20Birds" } },
-					]
-					const buttonMessage = {
-						caption: "The Angry Birds Movie | 2016 - 2019 | English | Movie Series | Sinhala Subtitles | TV Zone",
-						footer: config.FOOTER,
-						templateButtons: templateButtons,
 						image: { url: "https://telegra.ph/file/91e92370b6f74cf791fb7.jpg" }
-					}
-
-					await conn.sendMessage(config.GROUPJID, buttonMessage)
+					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
@@ -401,22 +347,10 @@ const connectToWA = () => {
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: "6 Underground | 2019 | 18+ | English | Movie | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
+						caption: "Ant Man | 2015 - 2018 | English | Movie Series | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "https://telegra.ph/file/302d6b8a11c3c3af4f6a8.jpg" }
-					})
-					
-					const templateButtons = [
-						{ urlButton: { displayText: config.BTNNAME, url: config.SITELINK + "_/search?query=Ant%20Man" } },
-					]
-					const buttonMessage = {
-						caption: "Ant Man | 2015 - 2018 | English | Movie Series | Sinhala Subtitles | TV Zone",
-						footer: config.FOOTER,
-						templateButtons: templateButtons,
 						image: { url: "https://telegra.ph/file/944952aedae0ecec48644.jpg" }
-					}
-
-					await conn.sendMessage(config.GROUPJID, buttonMessage)
+					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
@@ -437,22 +371,10 @@ const connectToWA = () => {
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: "6 Underground | 2019 | 18+ | English | Movie | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
+						caption: "Artemis Fowl | 2020 | English | Movie | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "https://telegra.ph/file/302d6b8a11c3c3af4f6a8.jpg" }
-					})
-					
-					const templateButtons = [
-						{ urlButton: { displayText: config.BTNNAME, url: config.SITELINK + "artemis-fowl-2020" } },
-					]
-					const buttonMessage = {
-						caption: "Artemis Fowl | 2020 | English | Movie | Sinhala Subtitles | TV Zone",
-						footer: config.FOOTER,
-						templateButtons: templateButtons,
 						image: { url: "https://telegra.ph/file/75e6e689b690bba8e25c5.jpg" }
-					}
-
-					await conn.sendMessage(config.GROUPJID, buttonMessage)
+					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
@@ -473,22 +395,10 @@ const connectToWA = () => {
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: "6 Underground | 2019 | 18+ | English | Movie | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
+						caption: "Assassin's Creed | 2016 | English | Movie | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "https://telegra.ph/file/302d6b8a11c3c3af4f6a8.jpg" }
-					})
-					
-					const templateButtons = [
-						{ urlButton: { displayText: config.BTNNAME, url: config.SITELINK + "_/search?query=Assassins%20Creed" } },
-					]
-					const buttonMessage = {
-						caption: "Assassin's Creed | 2016 | English | Movie | Sinhala Subtitles | TV Zone",
-						footer: config.FOOTER,
-						templateButtons: templateButtons,
 						image: { url: "https://telegra.ph/file/d9a2296f9b757eadf5738.jpg" }
-					}
-
-					await conn.sendMessage(config.GROUPJID, buttonMessage)
+					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
@@ -512,22 +422,10 @@ const connectToWA = () => {
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: "6 Underground | 2019 | 18+ | English | Movie | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
+						caption: "Avengers | 2012 - 2019 | English | Movie Series | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "https://telegra.ph/file/302d6b8a11c3c3af4f6a8.jpg" }
-					})
-					
-					const templateButtons = [
-						{ urlButton: { displayText: config.BTNNAME, url: config.SITELINK + "_/search?query=Avengers" } },
-					]
-					const buttonMessage = {
-						caption: "Avengers | 2012 - 2019 | English | Movie Series | Sinhala Subtitles | TV Zone",
-						footer: config.FOOTER,
-						templateButtons: templateButtons,
 						image: { url: "https://telegra.ph/file/a665bfb05433429df887e.jpg" }
-					}
-
-					await conn.sendMessage(config.GROUPJID, buttonMessage)
+					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
@@ -563,20 +461,10 @@ const connectToWA = () => {
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: "6 Underground | 2019 | 18+ | English | Movie | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
+						caption: "AXL | 2018 | English | Movie | Sinhala Subtitles | TV Zone\n\n" + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "https://telegra.ph/file/302d6b8a11c3c3af4f6a8.jpg" }
-					})
-					
-					const templateButtons = [
-						{ urlButton: { displayText: config.BTNNAME, url: config.SITELINK + "axl-2018" } },
-					]
-					const buttonMessage = {
-						caption: "AXL | 2018 | English | Movie | Sinhala Subtitles | TV Zone",
-						footer: config.FOOTER,
-						templateButtons: templateButtons,
 						image: { url: "https://telegra.ph/file/ef3472e27d1549c26dccc.jpg" }
-					}
+					})
 
 					await conn.sendMessage(config.GROUPJID, buttonMessage)
 
