@@ -13,7 +13,8 @@ module.exports = {
 	PRO_LOGO: process.env.PRO_LOGO === undefined ? 'https://telegra.ph/file/58cf25199cd0c1dcd5695.jpg' : process.env.PRO_LOGO,
 	MY_LOGO: process.env.MY_LOGO === undefined ? 'https://telegra.ph/file/59ae30418cdc0f288a002.jpg' : process.env.MY_LOGO,
 
-	FOOTER: process.env.FOOTER === undefined ? 'Ⓒ𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝙱𝚢 @𝙽𝚊𝚍𝚒𝚝𝚑𝙿𝚛𝚘' : process.env.FOOTER,
+	FOOTER: process.env.FOOTER === undefined ? '@nadithpro' : process.env.FOOTER,
+	FOOTER1: process.env.FOOTER1 === undefined ? 'Ⓒ𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝙱𝚢 @𝙽𝚊𝚍𝚒𝚝𝚑𝙿𝚛𝚘' : process.env.FOOTER1,
 	BTNNAME: process.env.BTNNAME === undefined ? 'View Online' : process.env.BTNNAME,
 
 	SITELINK: process.env.SITELINK === undefined ? 'https://tv.nadith.pro/' : process.env.SITELINK,
