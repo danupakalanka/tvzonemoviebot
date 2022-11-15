@@ -1017,23 +1017,6 @@ const connectToWA = () => {
 				}
 					break
 
-				case 'autosend': {
-
-					if (!isSUB) return
-
-					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
-
-					setInterval(myTimer, 5 * 60000);
-
-					function myTimer() {
-						let picaks = [".axl", ".antman", ".dumbo", ".dolittle"]
-						let picak = picaks[Math.floor(Math.random() * picaks.length)]
-						conn.sendMessage(`94706959558@s.whatsapp.net`, { text: picak })
-					}
-				}
-					break
-
-
 
 				default:
 
