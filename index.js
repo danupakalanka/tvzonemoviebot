@@ -130,7 +130,7 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/6_Underground_2019_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro 6 underground 2019 .mkv'
+						fileName: '@nadithpro 6 underground 2019 18+ .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
@@ -204,17 +204,17 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/After_2019_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro After 2019 .mkv'
+						fileName: '@nadithpro After 2019 18+ .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/After_We_Collided_2020_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro After We Collided 2020 .mkv'
+						fileName: '@nadithpro After We Collided 2020 18+ .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/After_We_Fell_2021_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro After We Fell 2021 .mkv'
+						fileName: '@nadithpro After We Fell 2021 18+ .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
@@ -300,47 +300,47 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/American_Pie_1999_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro American Pie 1999 .mkv'
+						fileName: '@nadithpro American Pie 1999 18+ .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/American_Pie_2001_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro American Pie 2001 .mkv'
+						fileName: '@nadithpro American Pie 2001 18+ .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/American_Pie_The_Wedding_2003_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro American Pie The Wedding 2003 .mkv'
+						fileName: '@nadithpro American Pie The Wedding 2003 18+ .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/American_Pie_Presents_Band_Camp_2005_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro American Pie Presents Band Camp 2005 .mkv'
+						fileName: '@nadithpro American Pie Presents Band Camp 2005 18+ .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/American_Pie_Presents_The_Naked_Mile_2006_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro American Pie Presents The Naked Mile 2006 .mkv'
+						fileName: '@nadithpro American Pie Presents The Naked Mile 2006 18+ .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/American_Pie_Presents_Beta_House_2007_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro American Pie Presents Beta House 2007 .mkv'
+						fileName: '@nadithpro American Pie Presents Beta House 2007 18+ .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/American_Pie_Presents_The_Book_Of_Love_2009_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro American Pie Presents The Book Of Love 2009 .mkv'
+						fileName: '@nadithpro American Pie Presents The Book Of Love 2009 18+ .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/American_Pie_Reunion_2012_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro American Pie Reunion 2012 .mkv'
+						fileName: '@nadithpro American Pie Reunion 2012 18+ .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/American_Pie_Presents_Girls_Rules_2020_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro American Pie Presents Girls Rules 2020 .mkv'
+						fileName: '@nadithpro American Pie Presents Girls Rules 2020 18+ .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
@@ -592,7 +592,7 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Baywatch_2017_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro Baywatch 2017 .mkv'
+						fileName: '@nadithpro Baywatch 2017 18+ .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
@@ -893,12 +893,12 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Deadpool_2016_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro Deadpool 2016 .mkv'
+						fileName: '@nadithpro Deadpool 2016 18+ .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Deadpool_2018_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro Deadpool 2018 .mkv'
+						fileName: '@nadithpro Deadpool 2018 18+ .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
@@ -922,7 +922,7 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Dirty_Grandpa_2016_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro Dirty Grandpa 2016 .mkv'
+						fileName: '@nadithpro Dirty Grandpa 2016 18+ .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
@@ -989,7 +989,7 @@ const connectToWA = () => {
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
-					await conn.sendMessage(config.GROUPJID, {
+					await conn.sendMessage(from, {
 						caption: "Dora And The Lost City Of Gold | 2019 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
 						image: { url: "https://telegra.ph/file/e956c5649ad6ca37b27ae.jpg" }
@@ -997,7 +997,7 @@ const connectToWA = () => {
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
-					await conn.sendMessage(config.GROUPJID, {
+					await conn.sendMessage(from, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Dora_And_The_Lost_City_Of_Gold_2019_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
 						fileName: '@nadithpro Dora And The Lost City Of Gold 2019 .mkv'
