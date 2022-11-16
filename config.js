@@ -30,7 +30,7 @@ module.exports = {
 	GROUPJID: process.env.GROUPJID === undefined ? '120363049874424207@g.us' : process.env.GROUPJID,
 	SENDJID: process.env.SENDJID === undefined ? '94777717578@s.whatsapp.net' : process.env.SENDJID,
 
-	OWNER_NAME: process.env.OWNER_NAME === undefined ? 'NadithPro' : process.env.OWNER_NAME,
+	OWNER_NAME: process.env.OWNER_NAME === undefined ? 'NadithPro Support' : process.env.OWNER_NAME,
 	OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94761327688' : process.env.OWNER_NUMBER,
 
 };
