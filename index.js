@@ -797,7 +797,7 @@ const connectToWA = () => {
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: "Charlie's_Angels | 2019 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Charlie's Angels | 2019 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
 						image: { url: "https://telegra.ph/file/36c7e75bc05472d062620.jpg" }
 					})
@@ -807,7 +807,7 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: "https://cloud.nadith.pro/en_mv/Charlie's_Angels_2019_@nadithpro.mkv" },
 						mimetype: config.MKVTYPE,
-						fileName: "@nadithpro Charlie's_Angels_2019 .mkv"
+						fileName: "@nadithpro Charlie's Angels 2019 .mkv"
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
