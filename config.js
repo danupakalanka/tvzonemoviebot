@@ -10,11 +10,13 @@ module.exports = {
 	ALIVE_MSG: process.env.ALIVE_MSG === undefined ? 'Alive Now' : process.env.ALIVE_MSG,
 	ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? `https://telegra.ph/file/5f2c2213e479a958564bd.jpg` : process.env.ALIVE_LOGO,
 
-	PRO_LOGO: process.env.PRO_LOGO === undefined ? 'https://telegra.ph/file/58cf25199cd0c1dcd5695.jpg' : process.env.PRO_LOGO,
-	MY_LOGO: process.env.MY_LOGO === undefined ? 'https://telegra.ph/file/59ae30418cdc0f288a002.jpg' : process.env.MY_LOGO,
+	PRO_LOGO: process.env.PRO_LOGO === undefined ? 'https://telegra.ph/file/8b8d49a533ae75d867f59.jpg' : process.env.PRO_LOGO,
+	TV_LOGO: process.env.TV_LOGO === undefined ? 'https://telegra.ph/file/19c40ac52437d246524d3.jpg' : process.env.TV_LOGO,
+	MY_LOGO: process.env.MY_LOGO === undefined ? 'https://telegra.ph/file/c8fa7a59b5dc23131d603.jpg' : process.env.MY_LOGO,
+	WELCOME_LOGO: process.env.WELCOME_LOGO === undefined ? 'https://telegra.ph/file/21cecd447a3694560d001.jpg' : process.env.WELCOME_LOGO,
 
 	FOOTER: process.env.FOOTER === undefined ? '@NadithPro' : process.env.FOOTER,
-	FOOTER1: process.env.FOOTER1 === undefined ? 'Ⓒ𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝙱𝚢 @𝙽𝚊𝚍𝚒𝚝𝚑𝙿𝚛𝚘' : process.env.FOOTER1,
+	FOOTER1: process.env.FOOTER1 === undefined ? 'ⒸPowered By @NadithPro' : process.env.FOOTER1,
 	BTNNAME: process.env.BTNNAME === undefined ? 'View Online' : process.env.BTNNAME,
 
 	SITELINK: process.env.SITELINK === undefined ? 'https://tv.nadith.pro/' : process.env.SITELINK,
