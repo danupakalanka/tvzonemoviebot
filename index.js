@@ -70,7 +70,7 @@ const connectToWA = () => {
 
 			const isSUB = from == config.SENDJID ? true : false
 
-			if (!isGroup) {
+
 
 				const startmsg = `*🍁𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 𝕋𝕍 ℤ𝕆ℕ𝔼 𝔹𝕆𝕋*
 
@@ -91,7 +91,6 @@ const connectToWA = () => {
 					image: { url: config.TV_LOGO }
 				}
 				await conn.sendMessage(from, buttonMessage)
-			}
 
 
 			switch (command) {
