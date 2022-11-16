@@ -71,7 +71,6 @@ const connectToWA = () => {
 			const isSUB = from == config.SENDJID ? true : false
 
 			if (!isGroup) {
-				return
 
 				const startmsg = `*🍁𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 𝕋𝕍 ℤ𝕆ℕ𝔼 𝔹𝕆𝕋*
 
