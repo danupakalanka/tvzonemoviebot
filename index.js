@@ -71,8 +71,13 @@ const connectToWA = () => {
 			const isSUB = from == config.SENDJID ? true : false
 
 
+			switch (command) {
 
-				const startmsg = `*🍁𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 𝕋𝕍 ℤ𝕆ℕ𝔼 𝔹𝕆𝕋*
+				case command: {
+
+					if (!isGroup) return
+
+					const startmsg = `*🍁𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 𝕋𝕍 ℤ𝕆ℕ𝔼 𝔹𝕆𝕋*
 
 🔰 TV Zone Group එකට පහළින් Join වන්න.
 				
@@ -91,9 +96,6 @@ const connectToWA = () => {
 					image: { url: config.TV_LOGO }
 				}
 				await conn.sendMessage(from, buttonMessage)
-
-
-			switch (command) {
 
 				case 'owner': {
 
