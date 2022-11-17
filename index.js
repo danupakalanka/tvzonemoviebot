@@ -73,9 +73,11 @@ const connectToWA = () => {
 
 			switch (command) {
 
-				case ;nadithp: {
+				
+				case 'start': {
 
-					if (!isGroup) return
+					
+					
 
 					const startmsg = `*🍁𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 𝕋𝕍 ℤ𝕆ℕ𝔼 𝔹𝕆𝕋*
 
@@ -84,20 +86,22 @@ const connectToWA = () => {
  𖣔 Thank You 𖣔
  ━━━━━━━━━━`
 
-					const templateButtons = [
-						{ urlButton: { displayText: 'WebSite 🖥️', url: 'https://tv.nadith.pro/' } },
-						{ urlButton: { displayText: 'Join TV Zone', url: 'https://chat.whatsapp.com/Ltkp9BEYl632dE7T6bT58i' } },
-						{ quickReplyButton: { displayText: 'Owner', id: prefix + 'owner' } },
-					]
-					const buttonMessage = {
-						caption: startmsg,
-						footer: config.FOOTER1,
-						templateButtons: templateButtons,
-						image: { url: config.TV_LOGO }
-					}
-					await conn.sendMessage(from, buttonMessage)
-
+				const templateButtons = [
+					{ urlButton: { displayText: 'WebSite 🖥️', url: 'https://tv.nadith.pro/' } },
+					{ urlButton: { displayText: 'Join TV Zone', url: 'https://chat.whatsapp.com/Ltkp9BEYl632dE7T6bT58i' } },
+					{ quickReplyButton: { displayText: 'Owner', id: prefix + 'owner' } },
+				]
+				const buttonMessage = {
+					caption: startmsg,
+					footer: config.FOOTER1,
+					templateButtons: templateButtons,
+					image: { url: config.TV_LOGO }
+				}
+				conn.sendMessage(from, buttonMessage)
+					
+				}
 					break
+
 
 				case 'owner': {
 
@@ -991,7 +995,7 @@ const connectToWA = () => {
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
-					await conn.sendMessage(from, {
+					await conn.sendMessage(config.GROUPJID, {
 						caption: "Dora And The Lost City Of Gold | 2019 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
 						image: { url: "https://telegra.ph/file/e956c5649ad6ca37b27ae.jpg" }
@@ -999,7 +1003,7 @@ const connectToWA = () => {
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
-					await conn.sendMessage(from, {
+					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Dora_And_The_Lost_City_Of_Gold_2019_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
 						fileName: '@nadithpro Dora And The Lost City Of Gold 2019 .mkv'
