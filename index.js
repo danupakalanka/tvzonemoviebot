@@ -73,7 +73,7 @@ const connectToWA = () => {
 
 			switch (command) {
 
-				case command: {
+				case 'start': {
 
 					if (!isGroup) return
 
