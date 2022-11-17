@@ -97,7 +97,7 @@ const connectToWA = () => {
 					templateButtons: templateButtons,
 					image: { url: config.TV_LOGO }
 				}
-				await conn.sendMessage(from, buttonMessage)
+				conn.sendMessage(from, buttonMessage)
 					
 				}
 					break
