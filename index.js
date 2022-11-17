@@ -73,8 +73,10 @@ const connectToWA = () => {
 
 			switch (command) {
 
+				
 				case 'start': {
 
+					
 					
 
 					const startmsg = `*🍁𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 𝕋𝕍 ℤ𝕆ℕ𝔼 𝔹𝕆𝕋*
@@ -96,8 +98,9 @@ const connectToWA = () => {
 					image: { url: config.TV_LOGO }
 				}
 				await conn.sendMessage(from, buttonMessage)
-                                    }
-                                        break
+					
+				}
+					break
 
 
 				case 'owner': {
