@@ -995,7 +995,7 @@ const connectToWA = () => {
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
-					await conn.sendMessage(from, {
+					await conn.sendMessage(config.GROUPJID, {
 						caption: "Dora And The Lost City Of Gold | 2019 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
 						image: { url: "https://telegra.ph/file/e956c5649ad6ca37b27ae.jpg" }
@@ -1003,7 +1003,7 @@ const connectToWA = () => {
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
 
-					await conn.sendMessage(from, {
+					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Dora_And_The_Lost_City_Of_Gold_2019_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
 						fileName: '@nadithpro Dora And The Lost City Of Gold 2019 .mkv'
