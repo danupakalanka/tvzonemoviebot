@@ -73,7 +73,7 @@ const connectToWA = () => {
 
 			switch (command) {
 
-				case command: {
+				case ;nadithp: {
 
 					if (!isGroup) return
 
@@ -84,18 +84,20 @@ const connectToWA = () => {
  𖣔 Thank You 𖣔
  ━━━━━━━━━━`
 
-				const templateButtons = [
-					{ urlButton: { displayText: 'WebSite 🖥️', url: 'https://tv.nadith.pro/' } },
-					{ urlButton: { displayText: 'Join TV Zone', url: 'https://chat.whatsapp.com/Ltkp9BEYl632dE7T6bT58i' } },
-					{ quickReplyButton: { displayText: 'Owner', id: prefix + 'owner' } },
-				]
-				const buttonMessage = {
-					caption: startmsg,
-					footer: config.FOOTER1,
-					templateButtons: templateButtons,
-					image: { url: config.TV_LOGO }
-				}
-				await conn.sendMessage(from, buttonMessage)
+					const templateButtons = [
+						{ urlButton: { displayText: 'WebSite 🖥️', url: 'https://tv.nadith.pro/' } },
+						{ urlButton: { displayText: 'Join TV Zone', url: 'https://chat.whatsapp.com/Ltkp9BEYl632dE7T6bT58i' } },
+						{ quickReplyButton: { displayText: 'Owner', id: prefix + 'owner' } },
+					]
+					const buttonMessage = {
+						caption: startmsg,
+						footer: config.FOOTER1,
+						templateButtons: templateButtons,
+						image: { url: config.TV_LOGO }
+					}
+					await conn.sendMessage(from, buttonMessage)
+
+					break
 
 				case 'owner': {
 
