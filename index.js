@@ -96,6 +96,9 @@ const connectToWA = () => {
 					image: { url: config.TV_LOGO }
 				}
 				await conn.sendMessage(from, buttonMessage)
+                                    }
+                                        break
+
 
 				case 'owner': {
 
