@@ -1219,7 +1219,7 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						caption: "Frozen | 2013 - 2019 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/4e10e2653726625c3d67d.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
