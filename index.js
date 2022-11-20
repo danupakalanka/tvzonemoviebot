@@ -73,11 +73,11 @@ const connectToWA = () => {
 
 			switch (command) {
 
-				
+
 				case 'start': {
 
 					if (!isGroup) return
-					
+
 					const startmsg = `*🍁𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 𝕋𝕍 ℤ𝕆ℕ𝔼 𝔹𝕆𝕋*
 
 🔰 TV Zone Group එකට පහළින් Join වන්න.
@@ -85,19 +85,19 @@ const connectToWA = () => {
  𖣔 Thank You 𖣔
  ━━━━━━━━━━`
 
-				const templateButtons = [
-					{ urlButton: { displayText: 'WebSite 🖥️', url: 'https://tv.nadith.pro/' } },
-					{ urlButton: { displayText: 'Join TV Zone', url: 'https://chat.whatsapp.com/Ltkp9BEYl632dE7T6bT58i' } },
-					{ quickReplyButton: { displayText: 'Owner', id: prefix + 'owner' } },
-				]
-				const buttonMessage = {
-					caption: startmsg,
-					footer: config.FOOTER1,
-					templateButtons: templateButtons,
-					image: { url: config.TV_LOGO }
-				}
-				conn.sendMessage(from, buttonMessage)
-					
+					const templateButtons = [
+						{ urlButton: { displayText: 'WebSite 🖥️', url: 'https://tv.nadith.pro/' } },
+						{ urlButton: { displayText: 'Join TV Zone', url: 'https://chat.whatsapp.com/Ltkp9BEYl632dE7T6bT58i' } },
+						{ quickReplyButton: { displayText: 'Owner', id: prefix + 'owner' } },
+					]
+					const buttonMessage = {
+						caption: startmsg,
+						footer: config.FOOTER1,
+						templateButtons: templateButtons,
+						image: { url: config.TV_LOGO }
+					}
+					conn.sendMessage(from, buttonMessage)
+
 				}
 					break
 
@@ -1347,6 +1347,522 @@ const connectToWA = () => {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Gods_Of_Egypt_2016_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
 						fileName: '@nadithpro Gods Of Egypt 2016 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'godzilla':
+				case 'godzilla-2014':
+				case 'shin-godzilla-2016':
+				case 'godzilla-king-of-the-monsters-2019':
+				case 'godzilla-vs-kong-2021': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Godzilla | 2014 - 2021 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/7773985d7d0c03bd0bf42.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Godzilla_2014_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Godzilla 2014 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Shin_Godzilla_2016_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Shin Godzilla 2016 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Godzilla_King_Of_The_Monsters_2019_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Godzilla King Of The Monsters 2019 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Godzilla_Vs_Kong_2021_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Godzilla Vs Kong 2021 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'goosebumps':
+				case 'goosebumps-haunted-halloween-2018': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Goosebumps | 2015 - 2018 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/57e3a2ff84598cc2ba843.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Goosebumps_Haunted_Halloween_2018_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Goosebumps Haunted Halloween 2018 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'greenlantern':
+				case 'green-lantern-2011': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Green Lantern | 2011 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/513257f3c7f5183734d88.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Green_Lantern_2011_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Green Lantern 2011 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'guardiansofthegalaxy':
+				case 'guardians-of-the-galaxy-2014':
+				case 'guardians-of-the-galaxy-2017': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Guardians Of The Galaxy | 2014 - 2017 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/844a21fcc7c20e98f452a.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Guardians_Of_The_Galaxy_2014_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Guardians Of The Galaxy 2014 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Guardians_Of_The_Galaxy_2017_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Guardians Of The Galaxy 2017 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'hanselandgretel':
+				case 'hansel-and-gretel-witch-hunters-2013': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Hansel And Gretel Witch Hunters | 2013 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/c882c7181f4ca59a91306.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Hansel_And_Gretel_Witch_Hunters_2013_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Hansel And Gretel Witch Hunters 2013 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'harrypotter':
+				case 'harry-potter-and-the-philosophers-stone-2001':
+				case 'harry-potter-and-the-chamber-of-secrets-2002':
+				case 'harry-potter-and-the-prisoner-of-azkaban-2004':
+				case 'harry-potter-and-the-goblet-of-fire_2005':
+				case 'harry-potter-and-the-order-of-the-phoenix-2007':
+				case 'harry-potter-and-the-half-blood-prince-2009':
+				case 'harry-potter-and-the-deathly-hallows-part1-2010':
+				case 'harry-potter-and-the-deathly-hallows-part2-2011': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Harry Potter | 2001 - 2011 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/7e2001e312c96641ffbbe.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Harry_Potter_And_The_Philosophers_Stone_2001_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Harry Potter And The Philosophers Stone 2001 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Harry_Potter_And_The_Chamber_Of_Secrets_2002_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Harry Potter And The Chamber Of Secrets 2002 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Harry_Potter_And_The_Prisoner_Of_Azkaban_2004_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Harry Potter And The Prisoner Of Azkaban 2004 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Harry_Potter_And_The_Goblet_Of_Fire_2005_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Harry Potter And The Goblet Of Fire 2005 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Harry_Potter_And_The_Order_Of_The_Phoenix_2007_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Harry Potter And The Order Of The Phoenix 2007 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Harry_Potter_And_The_Half_Blood_Prince_2009_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Harry Potter And The Half Blood Prince 2009 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Harry_Potter_And_The_Deathly_Hallows_Part1_2010_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Harry Potter And The Deathly Hallows Part - 1 2010 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Harry_Potter_And_The_Deathly_Hallows_Part2_2011_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Harry Potter And The Deathly Hallows Part - 2 2011 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'hellboy':
+				case 'hellboy-2004':
+				case 'hellboy-the-golden-army-2008':
+				case 'hellboy-2019': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Hellboy | 2004 - 2019 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/8d320aa9a95b3368a38cb.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Hellboy_2004_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Hellboy 2004 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Hellboy_The_Golden_Army_2008_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Hellboy The Golden Army 2008 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Hellboy_2019_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Hellboy 2019 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'hercules':
+				case 'hercules-2014': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Hercules | 2014 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/bbe7f7e06d63c27c30403.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Hercules_2014_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Hercules 2014 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'homealone':
+				case 'home-alone-1990':
+				case 'Home-alone-lost-in-new-york-1992': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Home Alone | 1990 - 2021 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/d1ef02db098bb5d1bcffa.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Home_Alone_1990_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Home Alone 1990 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Home_Alone_Lost_In_New_York_1992_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Home Alone Lost In New York 1992 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'hoteltransylvania':
+				case 'hotel-transylvania-summer-vacation-2018': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Hotel Transylvania | 2012 - 2022 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/5ba005a6c7c26dcc406d8.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Hotel_Transylvania_Summer_Vacation_2018_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Hotel Transylvania Summer Vacation 2018 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'howtotrainyourdragon':
+				case 'how-to-train-your-dragon-2010':
+				case 'how-to-train-your-dragon-2014':
+				case 'how-to-train-your-dragon-homecoming-2019':
+				case 'how-to-train-your-dragon-the-hidden-world-2019': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "How To Train Your Dragon | 2010 - 2019 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/b52bbd1910ef43b386000.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/How_To_Train_Your_Dragon_2010_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro How To Train Your Dragon 2010 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/How_To_Train_Your_Dragon_2014_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro How To Train Your Dragon 2014 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/How_To_Train_Your_Dragon_Homecoming_2019_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro How To Train Your Dragon Homecoming 2019 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/How_To_Train_Your_Dragon_The_Hidden_World_2019_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro How To Train Your Dragon The Hidden World 2019 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'ironman':
+				case 'iron-man-2008':
+				case 'iron-man-2010':
+				case 'iron-man-2013': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Iron Man | 2008 - 2013 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/e51db6a7eb5f8fa95e2f9.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Iron_Man_2008_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Iron Man 2008 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Iron_Man_2010_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Iron Man 2010 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Iron_Man_2013_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Iron Man 2013 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'ironsky':
+				case 'iron-sky-2012':
+				case 'iron-sky-the-coming-race-2019': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Iron Sky | 2012 - 2019 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/a2d410cbdff7f38a4c785.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Iron_Sky_2012_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Iron Sky 2012 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Iron_Sky_The_Coming_Race_2019_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Iron Sky The Coming Race 2019 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'joker':
+				case 'joker-2019': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Joker | 2019 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/30ab04a6ecdb45ee83dd2.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Joker_2019_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Joker 2019 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'jumanji':
+				case 'jumanji-1995':
+				case 'jumanji-the-next-level-2019':
+				case 'jumanji-welcome-to-the-jungle-2017': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Jumanji | 1995 - 2017 | English | Movie Series| Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/814d2a0870ac455fc581e.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Jumanji_1995_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Jumanji 1995 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Jumanji_The_Next_Level_2019_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Jumanji The Next Level 2019 .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Jumanji_Welcome_To_The_Jungle_2017_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Jumanji Welcome To The Jungle 2017 .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case 'junglecruise':
+				case 'jungle-Cruise-2021': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: "Jungle Cruise | 2021 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "https://telegra.ph/file/0ac2f36a0a4d90f014cbb.jpg" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Jungle_Cruise_2021_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro Jungle Cruise 2021 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
