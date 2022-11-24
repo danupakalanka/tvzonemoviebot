@@ -1877,6 +1877,676 @@ const connectToWA = () => {
 				}
 					break
 
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_Park_1993_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_Park_The_Lost_World_1997_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_Park_2001_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_World_2015_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_World_Fallen_Kingdom_2018_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_World_Dominion_2022_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Justice_League_2017_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Keeping_Up_With_The_Joneses_2016_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/King_Arthur_Legend_Of_The_Sword_2017_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Kingsman_The_Secret_Service_2014_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Kingsman_The_Golden_Circle_2017_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Logan_2017_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Love_And_Monsters_2020_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Lucy_2014_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Mad_Max_1979_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Mad_Max_The_Road_Warrior_1980_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Mad_Max_Beyond_Thunderdome_1985_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Mad_Max_Fury_Road_2015_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Maleficent_2014_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Maleficent_Mistress_Of_Evil_2019_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Man_Of_Steel_2013_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Max_Steel_2016_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Max_White_House_Hero_2017_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Maze_Runner_2014_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Maze_Runner_The_Scorch_Trials_2015_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Maze_Runner_The_Death_Cure_2018_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Men_In_Black_1997_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Men_In_Black_2002_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Men_In_Black_2012_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Men_In_Black_International_2019_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Mike_And_Dave_Need_Wedding_Dates_2016_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Minions_The_Rise_Of_Gru_2022_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Moana_2016_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Moonfall_2022_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Morbius_2022_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Mortal_Engines_2018_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Mortal_Kombat_2021_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Mowgli_Legend_Of_The_Jungle_2018_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
+				case '':
+				case '': {
+
+					if (!isSUB) return
+
+					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						footer: config.FOOTER,
+						image: { url: "" }
+					})
+
+					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
+
+					await conn.sendMessage(config.GROUPJID, {
+						document: { url: 'https://cloud.nadith.pro/en_mv/Mr._&_Mrs._Smith_2005_@nadithpro.mkv' },
+						mimetype: config.MKVTYPE,
+						fileName: '@nadithpro  .mkv'
+					})
+					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
+				}
+					break
+
 
 				default:
 
