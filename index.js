@@ -1086,7 +1086,7 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Escape_Room_2019_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro Escape_Room 2019 .mkv'
+						fileName: '@nadithpro Escape Room 2019 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Escape_Room_Tournament_Of_Champions_2021_@nadithpro.mkv' },
@@ -1877,17 +1877,19 @@ const connectToWA = () => {
 				}
 					break
 
-				case '':
-				case '': {
+				case 'jurassicpark':
+				case 'jurassic-park-1993':
+				case 'jurassic-park-the-lost-world-1997':
+				case 'jurassic-park-2001': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Jurassic Park | 1993 - 2001 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/32f4d6e8796be548fd1a9.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -1895,33 +1897,35 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_Park_1993_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Jurassic Park 1993 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_Park_The_Lost_World_1997_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Jurassic Park The Lost World 1997 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_Park_2001_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Jurassic Park 2001 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'jurassicworld':
+				case 'jurassic-world-2015':
+				case 'jurassic-world-fallen-kingdom-2018':
+				case 'jurassic-world-dominion-2022': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Jurassic World | 2015 - 2022 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/d5a181235c95dbf0fc8ec.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -1929,33 +1933,33 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_World_2015_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Jurassic World 2015 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_World_Fallen_Kingdom_2018_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Jurassic World Fallen Kingdom 2018 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Jurassic_World_Dominion_2022_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Jurassic World Dominion 2022 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'justiceleague':
+				case 'justice-league-2017': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Justice League | 2017 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/efc56c07f8cddfa6f8404.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -1963,23 +1967,23 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Justice_League_2017_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Justice League 2017 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'keepingupwiththejoneses':
+				case 'keeping-Up-With-The-Joneses-2016': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Keeping Up With The Joneses | 2016 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/43e207293e37f04792d55.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -1987,23 +1991,23 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Keeping_Up_With_The_Joneses_2016_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Keeping Up With The Joneses 2016 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'kingarthur':
+				case 'king-arthur-legend-of-the-sword-2017': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "King Arthur Legend Of The Sword | 2017 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/f3ded4ccfb82a6a3d2b99.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2011,23 +2015,24 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/King_Arthur_Legend_Of_The_Sword_2017_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro King Arthur Legend Of The Sword 2017 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'kingsman':
+				case 'kingsman-the-secret-service-2014':
+				case 'kingsman-the-golden-circle-2017': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Kingsman | 2014 - 2017 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/4d989079bb8784c3812ed.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2035,28 +2040,28 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Kingsman_The_Secret_Service_2014_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Kingsman The Secret Service 2014 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Kingsman_The_Golden_Circle_2017_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Kingsman The Golden Circle 2017 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'logan':
+				case 'logan-2017': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Logan | 2017 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/eef2e8611d92c00593e21.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2064,23 +2069,23 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Logan_2017_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Logan 2017 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'loveandmonsters':
+				case 'love-and-monsters-2020': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Love And Monsters | 2020 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/60341f4ad84a6302401a1.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2088,23 +2093,23 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Love_And_Monsters_2020_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Love And Monsters 2020 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'lucy':
+				case 'lucy-2014': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Lucy | 2014 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/6f9d13f6090259b9cb15a.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2112,23 +2117,26 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Lucy_2014_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Lucy 2014 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'madmax':
+				case 'mad-max-1979':
+				case 'mad-max-the-road-warrior-1980':
+				case 'mad-max-beyond-thunderdome-1985':
+				case 'mad-max-fury-road-2015': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Mad Max | 1979 - 2015 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/8f2ae6f9dd6cdb1d0b1b4.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2136,38 +2144,39 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Mad_Max_1979_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Mad Max 1979 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Mad_Max_The_Road_Warrior_1980_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Mad Max The Road Warrior 1980 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Mad_Max_Beyond_Thunderdome_1985_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Mad Max Beyond Thunderdome 1985 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Mad_Max_Fury_Road_2015_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Mad Max Fury Road 2015 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'maleficent':
+				case 'maleficent-2014':
+				case 'maleficent-mistress-of-evil-2019': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Maleficent | 2014 - 2019 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/5d5858e6f37d6c986b1df.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2175,28 +2184,28 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Maleficent_2014_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Maleficent 2014 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Maleficent_Mistress_Of_Evil_2019_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Maleficent Mistress Of Evil 2019 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'manofsteel':
+				case 'man-of-steel-2013': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Man Of Steel | 2013 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/82b22aeb646bdec5ad5bc.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2204,23 +2213,23 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Man_Of_Steel_2013_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Man Of Steel 2013 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'maxsteel':
+				case 'max-steel-2016': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Max Steel | 2016 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/a5310ed2a86a870ef78fe.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2228,23 +2237,23 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Max_Steel_2016_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Max Steel 2016 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'max':
+				case 'max-white-house-hero-2017': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Max White House Hero | 2017 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/25113ce641ec05324b12a.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2252,23 +2261,25 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Max_White_House_Hero_2017_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Max White House Hero 2017 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'mazerunner':
+				case 'maze-runner-2014':
+				case 'maze-runner-the-scorch-trials-2015':
+				case 'maze-runner-the-death-cure-2018': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Maze Runner | 2014 - 2018 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/7949e74749ddc7f61291b.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2276,33 +2287,36 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Maze_Runner_2014_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Maze Runner 2014 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Maze_Runner_The_Scorch_Trials_2015_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Maze Runner The Scorch Trials 2015 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Maze_Runner_The_Death_Cure_2018_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Maze Runner The Death Cure 2018 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'meninblack':
+				case 'men-in-black-1997':
+				case 'men-in-black-2002':
+				case 'men-in-black-2012':
+				case 'men-in-black-international-2019': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Men In Black | 1997 - 2019 | English | Movie Series | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/7d05b01d05a9117d05f7c.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2310,38 +2324,38 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Men_In_Black_1997_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Men In Black 1997 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Men_In_Black_2002_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Men In Black 2002 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Men_In_Black_2012_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Men In Black 2012 .mkv'
 					})
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Men_In_Black_International_2019_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Men In Black International 2019 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'mikeanddaveneedweddingdates':
+				case 'mike-and-dave-need-wedding-dates-2016': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Mike And Dave Need Wedding Dates | 2016 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/88b85bb7dea472be102ce.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2349,23 +2363,23 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Mike_And_Dave_Need_Wedding_Dates_2016_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Mike And Dave Need Wedding Dates 2016 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'minionstheriseofgru':
+				case 'minions-the-rise-of-gru-2022': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Minions The Rise Of Gru | 2022 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/5add7bba9c5bb57a58b84.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2373,23 +2387,23 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Minions_The_Rise_Of_Gru_2022_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Minions The Rise Of Gru 2022 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'moana':
+				case 'moana-2016': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Moana | 2016 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/7ce7dc8188b7018085f69.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2397,23 +2411,23 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Moana_2016_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Moana 2016 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'moonfall':
+				case 'moonfall-2022': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Moonfall | 2022 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/198b4021264bdb4fa0311.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2421,23 +2435,23 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Moonfall_2022_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Moonfall 2022 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'morbius':
+				case 'morbius-2022': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Morbius | 2022 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/e3a3157b7de3d1de35e8d.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2445,23 +2459,23 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Morbius_2022_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Morbius 2022 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'mortalengines':
+				case 'mortal-engines-2018': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Mortal Engines | 2018 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/257df48e28d17fdc169e3.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2469,23 +2483,23 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Mortal_Engines_2018_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Mortal Engines 2018 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'mortalkombat':
+				case 'mortal-kombat-2021': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Mortal Kombat | 2021 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/16515f88554eb20b71524.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2493,23 +2507,23 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Mortal_Kombat_2021_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Mortal Kombat 2021 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'mowglilegendofthejungle':
+				case 'mowgli-legend-of-the-jungle-2018': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Mowgli Legend Of The Jungle | 2018 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/4ddfbb02e7e469a7538de.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2517,23 +2531,23 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Mowgli_Legend_Of_The_Jungle_2018_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Mowgli Legend Of The Jungle 2018 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
 					break
 
-				case '':
-				case '': {
+				case 'Mr&Mrssmith':
+				case 'Mr.-&-Mrs.-smith-2005': {
 
 					if (!isSUB) return
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: " |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Mr. & Mrs. Smith 2005 |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
-						image: { url: "" }
+						image: { url: "https://telegra.ph/file/a19233de59118f7390de7.jpg" }
 					})
 
 					conn.sendMessage(from, { react: { text: config.RTYPE1, key: mek.key } })
@@ -2541,7 +2555,7 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Mr._&_Mrs._Smith_2005_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro  .mkv'
+						fileName: '@nadithpro Mr. & Mrs. Smith 2005 .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
