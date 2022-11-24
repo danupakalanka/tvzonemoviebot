@@ -2353,7 +2353,7 @@ const connectToWA = () => {
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: "Mike And Dave Need Wedding Dates | 2016 | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Mike And Dave Need Wedding Dates | 2016 | 18+ | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
 						image: { url: "https://telegra.ph/file/88b85bb7dea472be102ce.jpg" }
 					})
@@ -2363,7 +2363,7 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Mike_And_Dave_Need_Wedding_Dates_2016_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro Mike And Dave Need Wedding Dates 2016 .mkv'
+						fileName: '@nadithpro Mike And Dave Need Wedding Dates 2016 18+ .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
@@ -2545,7 +2545,7 @@ const connectToWA = () => {
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
 					await conn.sendMessage(config.GROUPJID, {
-						caption: "Mr. & Mrs. Smith 2005 |  | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
+						caption: "Mr. & Mrs. Smith | 2005 | 18+ | English | Movie | Sinhala Subtitles | TV Zone | " + config.FOOTER,
 						footer: config.FOOTER,
 						image: { url: "https://telegra.ph/file/a19233de59118f7390de7.jpg" }
 					})
@@ -2555,7 +2555,7 @@ const connectToWA = () => {
 					await conn.sendMessage(config.GROUPJID, {
 						document: { url: 'https://cloud.nadith.pro/en_mv/Mr._&_Mrs._Smith_2005_@nadithpro.mkv' },
 						mimetype: config.MKVTYPE,
-						fileName: '@nadithpro Mr. & Mrs. Smith 2005 .mkv'
+						fileName: '@nadithpro Mr. & Mrs. Smith 2005 18+ .mkv'
 					})
 					conn.sendMessage(from, { react: { text: config.RTYPE2, key: mek.key } })
 				}
