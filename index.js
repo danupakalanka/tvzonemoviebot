@@ -129,7 +129,7 @@ const connectToWA = () => {
 				case '6-underground-2019':
 				case '6underground': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -153,7 +153,7 @@ const connectToWA = () => {
 				case '12-strong-2018':
 				case '12strong': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -177,7 +177,7 @@ const connectToWA = () => {
 				case 'a-wrinkle-in-time-2018':
 				case 'awrinkleintime': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -203,7 +203,7 @@ const connectToWA = () => {
 				case 'after-we-collided-2020':
 				case 'after-we-fell-2021': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -238,7 +238,7 @@ const connectToWA = () => {
 				case 'alien-vs-predator-2004':
 				case 'aliens-vs-predator-requiem-2007': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -267,7 +267,7 @@ const connectToWA = () => {
 				case 'aliens-in-the-attic-2009':
 				case 'aliensintheattic': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -299,7 +299,7 @@ const connectToWA = () => {
 				case 'american-pie-reunion-2012':
 				case 'american-pie-presents-girls-rules-2020': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -364,7 +364,7 @@ const connectToWA = () => {
 				case 'the-angry-birds-movie-2016':
 				case 'the-angry-birds-movie-2019': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -393,7 +393,7 @@ const connectToWA = () => {
 				case 'antman':
 				case 'ant-man-and-the-wasp-2018': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -417,7 +417,7 @@ const connectToWA = () => {
 				case 'artemis-fowl-2020':
 				case 'artemisfowl': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -441,7 +441,7 @@ const connectToWA = () => {
 				case 'assassinscreed':
 				case 'assassins-creed-2016': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -468,7 +468,7 @@ const connectToWA = () => {
 				case 'avengers-infinity-war-2018':
 				case 'avengers-endgame-2019': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -507,7 +507,7 @@ const connectToWA = () => {
 				case 'axl-2018':
 				case 'axl': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -533,7 +533,7 @@ const connectToWA = () => {
 				case 'batman-returns-1992':
 				case 'batman-forever-1995': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -567,7 +567,7 @@ const connectToWA = () => {
 				case 'batmanvsuperman':
 				case 'batman-v-superman-dawn-of-justice-2016': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -591,7 +591,7 @@ const connectToWA = () => {
 				case 'baywatch':
 				case 'baywatch-2017': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -615,7 +615,7 @@ const connectToWA = () => {
 				case 'beautyandthebeast':
 				case 'beauty-and-the-beast-2017': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -639,7 +639,7 @@ const connectToWA = () => {
 				case 'bighero6':
 				case 'big-hero-6-2014': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -663,7 +663,7 @@ const connectToWA = () => {
 				case 'birdsofprey':
 				case 'birds-of-prey-and-the-fantabulous-emancipation-of-one-harley-quinn-2020': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -687,7 +687,7 @@ const connectToWA = () => {
 				case 'blackpanther':
 				case 'black-panther-2018': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -711,7 +711,7 @@ const connectToWA = () => {
 				case 'bloodinthewater':
 				case 'blood-in-the-water-2022': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -735,7 +735,7 @@ const connectToWA = () => {
 				case 'bloodshot':
 				case 'bloodshot-2020': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -759,7 +759,7 @@ const connectToWA = () => {
 				case 'blowback':
 				case 'blowback-2022': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -783,7 +783,7 @@ const connectToWA = () => {
 				case 'bumblebee':
 				case 'bumblebee-2018': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -809,7 +809,7 @@ const connectToWA = () => {
 				case 'cars-2011':
 				case 'cars-2017': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -843,7 +843,7 @@ const connectToWA = () => {
 				case 'charliesangles':
 				case 'charlies-angels-2019': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -867,7 +867,7 @@ const connectToWA = () => {
 				case 'coco':
 				case 'code-2017': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -892,7 +892,7 @@ const connectToWA = () => {
 				case 'deadpool-2016':
 				case 'deadpool-2018': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -921,7 +921,7 @@ const connectToWA = () => {
 				case 'dirtygrandpa':
 				case 'dirty-grandpa-2016': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -946,7 +946,7 @@ const connectToWA = () => {
 				case 'doctor-strange-2016':
 				case 'doctor-strange-in-the-multiverse-of-madness-2022': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -975,7 +975,7 @@ const connectToWA = () => {
 				case 'dolittle':
 				case 'dolittle-2020': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -999,7 +999,7 @@ const connectToWA = () => {
 				case 'doraandthelostcityofgold':
 				case 'dora-and-the-lost-city-of-gold-2019': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1023,7 +1023,7 @@ const connectToWA = () => {
 				case 'dragonball':
 				case 'dragonball-evolution-2009': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1047,7 +1047,7 @@ const connectToWA = () => {
 				case 'dumbo':
 				case 'dumbo-2019': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1071,7 +1071,7 @@ const connectToWA = () => {
 				case 'escaperoom':
 				case 'escape-room-2019': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1100,7 +1100,7 @@ const connectToWA = () => {
 				case 'eternals':
 				case 'eternals-2021': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1124,7 +1124,7 @@ const connectToWA = () => {
 				case 'extraction':
 				case 'extraction-2020': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1148,7 +1148,7 @@ const connectToWA = () => {
 				case 'fantasticbeasts':
 				case 'fantastic-beasts-the-crimes-of-grindelwald-2018': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1172,7 +1172,7 @@ const connectToWA = () => {
 				case 'fantasticfour':
 				case 'fantastic-four-2015': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1196,7 +1196,7 @@ const connectToWA = () => {
 				case 'ferdinand':
 				case 'ferdinand-2017': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1221,7 +1221,7 @@ const connectToWA = () => {
 				case 'frozen-2013':
 				case 'frozen-2019': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1251,7 +1251,7 @@ const connectToWA = () => {
 				case 'g.i.-joe-rise-of-cobra-2009':
 				case 'g.i.-joe-retaliation-2013': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1280,7 +1280,7 @@ const connectToWA = () => {
 				case 'snakeeyes':
 				case 'snake-eyes-2021': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1306,7 +1306,7 @@ const connectToWA = () => {
 				case 'ghostbusters-1989':
 				case 'ghostbusters-2016': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1340,7 +1340,7 @@ const connectToWA = () => {
 				case 'godsofegypt':
 				case 'gods-of-egypt-2016': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1367,7 +1367,7 @@ const connectToWA = () => {
 				case 'godzilla-king-of-the-monsters-2019':
 				case 'godzilla-vs-kong-2021': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1406,7 +1406,7 @@ const connectToWA = () => {
 				case 'goosebumps':
 				case 'goosebumps-haunted-halloween-2018': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1430,7 +1430,7 @@ const connectToWA = () => {
 				case 'greenlantern':
 				case 'green-lantern-2011': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1455,7 +1455,7 @@ const connectToWA = () => {
 				case 'guardians-of-the-galaxy-2014':
 				case 'guardians-of-the-galaxy-2017': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1484,7 +1484,7 @@ const connectToWA = () => {
 				case 'hanselandgretel':
 				case 'hansel-and-gretel-witch-hunters-2013': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1515,7 +1515,7 @@ const connectToWA = () => {
 				case 'harry-potter-and-the-deathly-hallows-part1-2010':
 				case 'harry-potter-and-the-deathly-hallows-part2-2011': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1576,7 +1576,7 @@ const connectToWA = () => {
 				case 'hellboy-the-golden-army-2008':
 				case 'hellboy-2019': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1610,7 +1610,7 @@ const connectToWA = () => {
 				case 'hercules':
 				case 'hercules-2014': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1635,7 +1635,7 @@ const connectToWA = () => {
 				case 'home-alone-1990':
 				case 'Home-alone-lost-in-new-york-1992': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1664,7 +1664,7 @@ const connectToWA = () => {
 				case 'hoteltransylvania':
 				case 'hotel-transylvania-summer-vacation-2018': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1691,7 +1691,7 @@ const connectToWA = () => {
 				case 'how-to-train-your-dragon-homecoming-2019':
 				case 'how-to-train-your-dragon-the-hidden-world-2019': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1732,7 +1732,7 @@ const connectToWA = () => {
 				case 'iron-man-2010':
 				case 'iron-man-2013': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1767,7 +1767,7 @@ const connectToWA = () => {
 				case 'iron-sky-2012':
 				case 'iron-sky-the-coming-race-2019': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1796,7 +1796,7 @@ const connectToWA = () => {
 				case 'joker':
 				case 'joker-2019': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1822,7 +1822,7 @@ const connectToWA = () => {
 				case 'jumanji-the-next-level-2019':
 				case 'jumanji-welcome-to-the-jungle-2017': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1856,7 +1856,7 @@ const connectToWA = () => {
 				case 'junglecruise':
 				case 'jungle-Cruise-2021': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1882,7 +1882,7 @@ const connectToWA = () => {
 				case 'jurassic-park-the-lost-world-1997':
 				case 'jurassic-park-2001': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1918,7 +1918,7 @@ const connectToWA = () => {
 				case 'jurassic-world-fallen-kingdom-2018':
 				case 'jurassic-world-dominion-2022': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1952,7 +1952,7 @@ const connectToWA = () => {
 				case 'justiceleague':
 				case 'justice-league-2017': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -1976,7 +1976,7 @@ const connectToWA = () => {
 				case 'keepingupwiththejoneses':
 				case 'keeping-Up-With-The-Joneses-2016': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2000,7 +2000,7 @@ const connectToWA = () => {
 				case 'kingarthur':
 				case 'king-arthur-legend-of-the-sword-2017': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2025,7 +2025,7 @@ const connectToWA = () => {
 				case 'kingsman-the-secret-service-2014':
 				case 'kingsman-the-golden-circle-2017': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2054,7 +2054,7 @@ const connectToWA = () => {
 				case 'logan':
 				case 'logan-2017': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2078,7 +2078,7 @@ const connectToWA = () => {
 				case 'loveandmonsters':
 				case 'love-and-monsters-2020': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2102,7 +2102,7 @@ const connectToWA = () => {
 				case 'lucy':
 				case 'lucy-2014': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2129,7 +2129,7 @@ const connectToWA = () => {
 				case 'mad-max-beyond-thunderdome-1985':
 				case 'mad-max-fury-road-2015': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2169,7 +2169,7 @@ const connectToWA = () => {
 				case 'maleficent-2014':
 				case 'maleficent-mistress-of-evil-2019': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2198,7 +2198,7 @@ const connectToWA = () => {
 				case 'manofsteel':
 				case 'man-of-steel-2013': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2222,7 +2222,7 @@ const connectToWA = () => {
 				case 'maxsteel':
 				case 'max-steel-2016': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2246,7 +2246,7 @@ const connectToWA = () => {
 				case 'max':
 				case 'max-white-house-hero-2017': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2272,7 +2272,7 @@ const connectToWA = () => {
 				case 'maze-runner-the-scorch-trials-2015':
 				case 'maze-runner-the-death-cure-2018': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2309,7 +2309,7 @@ const connectToWA = () => {
 				case 'men-in-black-2012':
 				case 'men-in-black-international-2019': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2348,7 +2348,7 @@ const connectToWA = () => {
 				case 'mikeanddaveneedweddingdates':
 				case 'mike-and-dave-need-wedding-dates-2016': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2372,7 +2372,7 @@ const connectToWA = () => {
 				case 'minionstheriseofgru':
 				case 'minions-the-rise-of-gru-2022': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2396,7 +2396,7 @@ const connectToWA = () => {
 				case 'moana':
 				case 'moana-2016': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2420,7 +2420,7 @@ const connectToWA = () => {
 				case 'moonfall':
 				case 'moonfall-2022': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2444,7 +2444,7 @@ const connectToWA = () => {
 				case 'morbius':
 				case 'morbius-2022': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2468,7 +2468,7 @@ const connectToWA = () => {
 				case 'mortalengines':
 				case 'mortal-engines-2018': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2492,7 +2492,7 @@ const connectToWA = () => {
 				case 'mortalkombat':
 				case 'mortal-kombat-2021': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2516,7 +2516,7 @@ const connectToWA = () => {
 				case 'mowglilegendofthejungle':
 				case 'mowgli-legend-of-the-jungle-2018': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
@@ -2540,7 +2540,7 @@ const connectToWA = () => {
 				case 'Mr&Mrssmith':
 				case 'Mr.-&-Mrs.-smith-2005': {
 
-					if (!isSUB) return
+					
 
 					conn.sendMessage(from, { react: { text: config.RTYPE3, key: mek.key } })
 
